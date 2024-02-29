@@ -1,0 +1,248 @@
+repo_name: AlexcastroDev/laravel10-event-async
+report_id: b7881e192491d349b3b2c8ad281f7457
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:23:00+00:00'
+requested_by: AlexcastroDev
+provider: github
+branch: master
+detected_tools_count: 19
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async
+  detection_source: Repo Metadata
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-02-19 22:55:36.000000000 Z
+- name: Laravel
+  description: A PHP Framework For Web Artisans
+  website_url: http://laravel.com/
+  version: 10.0.3
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-08-08 02:48:59.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async/blob/master/resources/js/Components/ApplicationLogo.jsx
+  detection_source: resources/js/Components/ApplicationLogo.jsx
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-08-08 03:03:30.000000000 Z
+- name: Cloud DB for Mysql
+  description: Easily setup and manage the MySQL database service
+  website_url: https://www.ncloud.com/product/database/cloudDbMysql
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: SQL Database as a Service
+  image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-08-08 02:48:59.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  version: 5.7.4
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-02-19 22:55:36.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-02-19 22:55:36.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async
+  detection_source: Repo Metadata
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 10.0.9
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-02-19 22:55:36.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-08-08 03:03:30.000000000 Z
+- name: guzzlehttp/guzzle
+  description: Guzzle is a PHP HTTP client library
+  package_url: https://packagist.org/guzzlehttp/guzzle
+  version: 7.5.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-02-19 22:55:36.000000000 Z
+- name: laravel/framework
+  description: The Laravel Framework
+  package_url: https://packagist.org/laravel/framework
+  version: 10.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-08-08 02:48:59.000000000 Z
+- name: laravel/tinker
+  description: Powerful REPL for the Laravel framework
+  package_url: https://packagist.org/laravel/tinker
+  version: 2.8.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-08-08 02:48:59.000000000 Z
+- name: mockery/mockery
+  description: Mockery is a simple yet flexible PHP mock object framework
+  package_url: https://packagist.org/mockery/mockery
+  version: 1.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-02-19 22:55:36.000000000 Z
+- name: nunomaduro/collision
+  description: Cli error handling for console/command-line PHP applications
+  package_url: https://packagist.org/nunomaduro/collision
+  version: 7.0.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-02-19 22:55:36.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 10.0.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-02-19 22:55:36.000000000 Z
+- name: predis/predis
+  description: A flexible and feature-complete Redis client for PHP
+  package_url: https://packagist.org/predis/predis
+  version: 2.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/AlexcastroDev/laravel10-event-async/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-02-19 22:55:36.000000000 Z
